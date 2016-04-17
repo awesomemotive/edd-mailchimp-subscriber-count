@@ -110,7 +110,7 @@ class MailChimp_Subscriber_Count_Admin {
 
 		add_settings_field(
 			'mc_list', // ID
-			__( 'MailChimp List', 'mailchimp-subscriber-count' ), // title
+			__( 'MailChimp List ID', 'mailchimp-subscriber-count' ), // title
 			array( $this, 'callback_input' ), // callback
 			'mailchimp-subscriber-count', //page
 			'mc_subscriber_count', // section
